@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-container {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.chat-header {
+    padding: 20px;
+    background-color: #075e54;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.chat-header h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.chat-messages {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.message {
+    margin-bottom: 10px;
+    max-width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    position: relative;
+}
+
+.user-message {
+    background-color: #dcf8c6;
+    margin-left: auto;
+}
+
+.bot-message {
+    background-color: #f0f0f0;
+}
+
+.download-button {
+    position: absolute;
+    right: 10px;
+    bottom: -20px;
+    background-color: #075e54;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 4px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.download-button:hover {
+    background-color: #054d44;
+}
+
+.download-icon {
+    width: 12px;
+    height: 12px;
+}
+
+.chat-input-container {
+    padding: 20px;
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.upload-btn {
+    padding: 8px;
+    background-color: #075e54;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-btn:hover {
+    background-color: #054d44;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #075e54;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #054d44;
+}
+
+.upload-progress {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.progress-text {
+    font-size: 14px;
+}
+
+.pdf-content {
+    font-style: italic;
+    color: #666;
+}
