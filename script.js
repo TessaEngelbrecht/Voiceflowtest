@@ -1,6 +1,6 @@
 
 
-const API_KEY = 'VF.DM.6799f488ca0e9587366490f6.gfkjnryDNj0u6VXJ';
+const API_KEY = 'VF.DM.66d73158b9711e36ebe1d627.0jXt946XTFyv4KpQ';
 const USER_ID = 'web-user-' + Math.random().toString(36).substring(7);
 
 // Initialize PDF.js worker
