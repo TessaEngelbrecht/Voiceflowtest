@@ -1,6 +1,6 @@
 
 
-const API_KEY = 'VF.DM.679785ee12f08bcbb5f77917.bBiS22S0cznvM4IQ';
+const API_KEY = 'VF.DM.6799f488ca0e9587366490f6.gfkjnryDNj0u6VXJ';
 const USER_ID = 'web-user-' + Math.random().toString(36).substring(7);
 
 // Initialize PDF.js worker
@@ -93,7 +93,7 @@ function addMessage(message, isUser = false, isPdf = false) {
     messageDiv.appendChild(document.createTextNode(message));
 
     // Add download button for bot messages longer than 10 characters
-    if (!isUser && message.length > 100) {
+    if (!isUser && message.length > 300) {
         const downloadButton = document.createElement('button');
         downloadButton.className = 'download-button';
         downloadButton.innerHTML = `
